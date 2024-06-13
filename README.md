@@ -23,7 +23,7 @@ Installation
 
 # Uploading CSV Files
 
-You can upload the following csv files
+You can upload the following csv files from data.csv as an example
 
 
 # Data Analysis and Visualization
