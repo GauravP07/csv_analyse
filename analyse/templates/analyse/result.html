@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Analysis Results</title>
+</head>
+<body>
+    <h1>CSV Analysis Results</h1>
+    <h2>First Few Rows</h2>
+    {{ head|safe }}
+
+    <h2>Summary Statistics</h2>
+    {{ summary|safe }}
+
+    <h2>Missing Values</h2>
+    {{ missing|safe }}
+
+    <h2>Visualizations</h2>
+    {% for plot in plots %}
+        <img src="{{ plot }}" alt="Plot">
+    {% endfor %}
+</body>
+</html>
