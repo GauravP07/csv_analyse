@@ -24,7 +24,6 @@ Installation
 # Uploading CSV Files
 
 You can upload the following csv files
-https://drive.google.com/drive/search?q=csv
 
 # Data Analysis and Visualization
 
